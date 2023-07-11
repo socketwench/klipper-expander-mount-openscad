@@ -7,7 +7,7 @@ difference()  {
         rotate([90,0,180]) {
             union() {
                 cylinder(h = 6, d = 3.2, $fn = 50);
-                cylinder(h = 2.5, d = 5.6, $fn = 50);
+                cylinder(h = 2.5, d = 5.8, $fn = 50);
             }
         }
     }
@@ -17,7 +17,7 @@ difference()  {
         rotate([90,0,180]) {
             union() {
                 cylinder(h = 6, d = 3.2, $fn = 50);
-                cylinder(h = 2.5, d = 5.6, $fn = 50);
+                cylinder(h = 2.5, d = 5.8, $fn = 50);
             }
         }
     }
@@ -45,7 +45,7 @@ translate([6.5, 6.5, 0]) {
     union() {
         difference() {
             cylinder(h = 9.6, d = 10, $fn = 50);
-            cylinder(h = 11, d = 4, $fn = 50);
+            cylinder(h = 11, d = 4.6, $fn = 50);
         }
         
         translate([-6, -6, 0]) {
@@ -58,7 +58,7 @@ translate([105 - 6.5, 6.5, 0]) {
     union() {
         difference() {
             cylinder(h = 9.6, d = 10, $fn = 50);
-            cylinder(h = 11, d = 4, $fn = 50);
+            cylinder(h = 11, d = 4.6, $fn = 50);
         }
         
         translate([2, -6, 0]) {
